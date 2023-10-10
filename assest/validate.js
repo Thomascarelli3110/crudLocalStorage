@@ -1,4 +1,4 @@
-function ValidateForm() { //  ValidateForm VALIDA EL TIPO DE DATO QUE SE INGRESE
+export function ValidateForm() { //  ValidateForm VALIDA EL TIPO DE DATO QUE SE INGRESE
     let email = document.getElementById("imputEmail").value // LO QUE HACEMOS ACA ES TRAER EL VALOR DEL IMPUTEMAIL
     let name = document.getElementById("imputName").value // LO QUE HACEMOS ACA ES TRAER EL VALOR DEL IMPUTNAME
     let phone = document.getElementById("imputPhone").value // LO QUE HACEMOS ACA ES TRAER EL VALOR DEL IMPUTEPHONE
@@ -28,3 +28,4 @@ function ValidateForm() { //  ValidateForm VALIDA EL TIPO DE DATO QUE SE INGRESE
 
     return true;
 }
+

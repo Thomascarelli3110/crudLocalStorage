@@ -1,3 +1,6 @@
+
+
+
 function firstContainer() {
     const container = document.getElementById("container")
     const data =
@@ -21,10 +24,24 @@ function firstContainer() {
                         <label class="form-label">Telefono</label>
                         <input type="number" class="form-control" id="imputPhone" placeholder="Telefono">
                     </div>
-                        <button type="submit" class="btn btn-primary" id="btnAdd" onlcick="addData()"> Enviar datos</button>
+                        <button type="submit" class="btn btn-primary" id="btnAdd" ${onclick="addData()"}> Enviar datos</button>
                         <button type="submit" class="btn btn-primary" id="btnUpdate">Actualizar datos</button>
                 </form>
             </div>
+            <hr>
+            <table class="table table-border" id="tableData">
+                <thead>
+                    <tr>
+                        <th>Correo</th>
+                        <th>Nombre Completo</th>
+                        <th>Telefono</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
         </div>
       </div>
     `
